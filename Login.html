@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form Login</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <link rel="icon" href="niomic.png">
+    
+  <style>
+      /* body{
+        background: #737373;
+      } */
+
+      .container{
+        background: white;
+        padding-top: 7px;
+        margin-top: 50px;
+        width: 500px;
+        height: 600px;
+      }
+  </style>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="tugas-akhir.html">Beranda</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <!-- Navbar menu -->
+          <div class="collapse navbar-collapse" id="#">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Login.html">Login</a>
+                  </li>
+      
+              <li class="nav-item active">
+                <a class="nav-link" href="kegiatan.html" target="_blank">Kegiatan <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <!-- dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="#" role="button" data-toggle="dropdown">
+                  Program Keahlian
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://niomic.com/">Keperawatan</a>
+                  <a class="dropdown-item" href="https://niomic.com/">Farmasi</a>
+                  <a class="dropdown-item" href="https://niomic.com/">Perhotelan</a>
+              </li>
+            </ul>
+            <!-- search -->
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search">
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+
+      <div class="container col-sm-3">
+          <form class="form-signin">
+              <div class="text-center mb-4">
+                <img class="mb-4" src="smk.jpg" alt="" width="72" height="72"> <br>
+                <h1 class="h3 mb-3 font-weight-normal">P E R H A T I A N</h1>
+                <p>Form Login ini hanya diperuntukkan bagi warga SMK Negeri 4 Negara</p>
+              </div> <br>
+            
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputEmail">Email address</label>
+              </div>
+            
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <label for="inputPassword">Password</label>
+              </div>
+            
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+              <p class="mt-5 mb-3 text-muted text-center">&copy; 2019</p>
+            </form>
+        </div>
+   
+  
+  
+    
+    
+  </body>
+</html>
